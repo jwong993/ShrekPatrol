@@ -72,9 +72,14 @@ class Menu extends Phaser.Scene{
         if(Phaser.Input.Keyboard.JustDown(keyRIGHT)){
             //hard mode
             game.settings = {
+<<<<<<< HEAD
                 spaceshipSpeed: 5,
                 gameTimer: 45000,
                 players: 1
+=======
+                spaceshipSpeed: 4,
+                gameTimer: 45000
+>>>>>>> parent of c6793b1 (tweak spaceship speed)
             }
             this.sound.play('sfx_select');
             this.scene.start('playScene');
